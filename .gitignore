@@ -1,0 +1,113 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+api/__pycache__/
+crawler/__pycache__/
+scheduler/__pycache__/
+test/__pycache__/
+utils/__pycache__/
+
+# C Extensions
+*.so
+
+# ---- Virtual Environments ----
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ---- Environment Variables ----
+*.env
+
+# ---- Distribution / Packaging ----
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- PyInstaller ----
+# Usually generated in dist/ or build/
+*.manifest
+*.spec
+
+# ---- Unit Test / Coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- mypy ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- IDE / Editors ----
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ---- Tools ----
+# Ruff / pylint
+ruff_cache/
+pylint.log
+
+# ---- OS files ----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Docker (if used) ----
+docker-compose.override.yml
+
+# ---- MongoDB Dumps ----
+dump/
+
+# ---- Custom Data ----
+data/
+*.sqlite
+*.db
+
+# ---- Reports / temp files ----
+reports/
+tmp/
+*.tmp
