@@ -71,7 +71,8 @@ async def async_main():
     scheduler.add_job(
         scheduled_crawl,
         "interval",
-        minutes=10,
+        hours=24,
+        # minutes=10,  # For testing purposes; switch to hours=24 for production
         id="test_crawl",
     )
 
